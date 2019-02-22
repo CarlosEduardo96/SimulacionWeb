@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Menu</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<br>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  	<a class="navbar-brand" href="#">Simulacion</a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav mr-auto">
+		    		<li class="nav-item active">
+			        	<a class="nav-link" href="#"">Inicio <span class="sr-only">(current)</span></a>
+			      	</li>
+
+			      	<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="documentacion" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Documentacion
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="documentacion">
+				          <a class="dropdown-item" href="../lib/libro-simulacic3b3n-y-anc3a1lisis-de-sistemas-2da-edicic3b3n.pdf" download="Simulacion y Analisis de Sistemas con Promodel (2da dition).pdf">Simulacion y analisis de 
+				          sistemas con promodel 2da
+				          </a>
+				          <a class="dropdown-item" href="../lib/1051_TecnicasIISimulacion.pdf" download="Tecnicas y Simulacion @by(Enrique Eduardo Tarifa Facultad de Ingeniería - Universidad Nacional de Jujuy).pdf">Teoria Y Modeles de Simulacion
+				          	<br>
+				          por Enrique Eduardo Tarifa <br>Facultad de Ingeniería -Universidad Nacional de Jujuy
+				          </a>
+				          <div class="dropdown-divider">  </div>
+				          <a class="dropdown-item" href="#">Otras fuentes:</a>
+				          <div class="dropdown-divider">  </div>				          
+				          <a class="dropdown-item" href="https://es.wikipedia.org/wiki/Simulación#Colección_de_datos">Wikipedia</a>				          
+				          <a class="dropdown-item" href="https://www.google.com.mx/search?client=opera&q=simulacion&sourceid=opera&ie=UTF-8&oe=UTF-8">Google</a>
+				        </div>
+				    </li>	      	
+
+			      	<li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="Temas" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Temas
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="Temas">
+				          <a class="dropdown-item" href="#curso1" data-toggle="modal">Introduccion</a>
+				          <a class="dropdown-item" href="#curso2" data-toggle="modal">¿Que es la Simulacion?</a>
+				          <a class="dropdown-item" href="#curso3" data-toggle="modal">Elementos de la Simulacion</a>
+				          <a class="dropdown-item" href="#curso4" data-toggle="modal">Aplicaciones de la Simulacion</a>
+				          <a class="dropdown-item" href="#">Otras opciones</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#curso5" data-toggle="modal">Tipos de Simulacion</a>
+				          <a class="dropdown-item" href="#curso6" data-toggle="modal">Etapas de Simulacion</a>
+				        </div>
+				    </li>
+				    <li class="nav-item">
+			        	<a class="nav-link" href="#evalucacion" data-toggle="modal">Criterios de Evalucion</a>
+			      	</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="../index.html">Cerrar Curso</a>
+			      	</li>	 
+		    	</ul>		    	
+		    </div>
+		</nav>
+	</div>
+	<div class="container">
+		<!--Barra lateral de temas-->
+		<div class="row">
+	        <div class="col-lg-3">
+
+	          <h1 class="my-4">Temas de Simulacion</h1>
+	          <div class="list-group">
+	            <a href="#curso1" class="list-group-item" name="introduccion" data-toggle="modal">Introduccion</a>
+	            <a href="#curso2" class="list-group-item" name="quees" data-toggle="modal">¿Que es la Simulacion?</a>
+	            <a href="#curso3" class="list-group-item" name="elemntos" data-toggle="modal">Elemtos de la Simulacion</a>
+	            <a href="#curso4" class="list-group-item" name="aplicacion" data-toggle="modal">Aplicacion de la Simulacion</a>
+	            <a href="#curso5" class="list-group-item" name="tipossimulacion" data-toggle="modal">Tipos de Simulacion</a>
+	            <a href="#curso6" class="list-group-item" name="etapassimulacion" data-toggle="modal">Etapas de Simulacion</a>            
+	          </div>
+	        </div>
+			<!--Items de los temas-->
+			<!--Inicio de los cursos-->
+			<div class="col-lg-3 col-md-6 mb-4">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/intro.jpg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		Introduccion
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En es te cuso aprenderemos la importancia de la simulacion
+	                		en nuestra vida cotidiana.
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso1" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>       
+          	<div class="col-lg-3 col-md-6 mb-4">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/quees.jpeg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		¿Que es la Simulacion?
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En es te curso aprenderemos sobre la 
+	                		simulacion,
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso2" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>       
+          	<div class="col-lg-3 col-md-6 mb-4">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/elementos.jpg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		Elementos de la Simulacion
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En es te cuso aprenderemos los elementos 
+	                		clave de la simulacion.
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso3" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>          	
+          	<div class="col-lg-3 col-md-6 mb-4 offset-md-3">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/aplicacion.jpg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		Aplicaciones de la simulacion
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En esta parte del curso veremos en donde 
+	                		podemos aplicar la simulacion.
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso4" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>          
+          	<div class="col-lg-3 col-md-6 mb-4">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/tipos.jpg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		Tipos de Simulacion
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En este curso aprenderemos los tipos 
+	                		de simulacion que hay.
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso5" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>      
+          	<div class="col-lg-3 col-md-6 mb-4">
+				<br>
+	            <div class="card h-100">
+              		<a href="#"><img class="card-img-top" src="../img/etapas.jpg" alt=""></a>
+	              	<div class="card-body">
+	                	<h4 class="card-title">
+                  		Simulacion por Computadoras.
+	                	</h4>	      
+	                	      	
+	                	<p class="card-text">
+	                		En este curso se aprenderan los puntos claves para
+	                		la simulacion en computadora.
+	                	</p>
+	              	</div>
+	              	<div class="card-footer text-center">	              		
+	              		<a href="#curso6" class="btn btn-info" id="cursos" data-toggle="modal">Ver curso</a>            		
+	              	</div>
+	            </div>
+          	</div>          	
+          	
+		</div>		
+		<!--Fin de los cursos y la barra de temas-->
+		<!--Modals-->
+		<!--Evalucacion-->
+		<div class="modal fade" id="evalucacion">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Evalucacion</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<table class="table table-striped table-bordered table-hover text-uppercase table-dark">
+							<th class="text-center">Evaluacion </th>
+							<th class="text-center">Valor %</th>
+							<tr>
+								<td>
+									Examen
+								</td>
+								<td>
+									40%
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Tareas
+								</td>
+								<td>
+									30%
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Participacion
+								</td>
+								<td>
+									10%
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Asistencia
+								</td>
+								<td>
+									10%
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Total
+								</td>
+								<td>
+									100%
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin de Evalucacion-->
+		<!--Cuso #1-->
+		<div class="modal fade" id="curso1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Introduccion</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>
+							Cuando alguien tiene la responsabilidad de conducir un sistema dado, como por ejemplo: un
+							banco, una ciudad, un sistema de transporte, etc., debe tomar continuamente decisiones acerca
+							de las acciones que ejecutará sobre el sistema. Estas decisiones deben ser tales que la
+							conducta resultante del sistema satisfaga de la mejor manera posible los objetivos planteados.<br>
+							Para poder decidir correctamente es necesario saber cómo responderá el sistema ante una
+							determinada acción.
+						</p>
+						<a href="#seccion" class="btn btn-info" data-toggle="collapse"> Leer Mas.. / Ocultar</a>	
+						<div class="collapse" id="seccion">
+							<br>
+							<div class="card card-body">
+								<p>
+									Esto podría hacerse por experimentación con el sistema mismo; pero
+							factores de costos, seguridad y otros hacen que esta opción generalmente no sea viable. A fin
+							de superar estos inconvenientes, se reemplaza el sistema real por otro sistema que en la
+							mayoría de los casos es una versión simplificada. Este último sistema es el modelo a utilizar
+							para llevar a cabo las experiencias necesarias sin los inconvenientes planteados anteriormente.<br>
+							Al proceso de experimentar con un modelo se denomina simulación. Al proceso de diseñar el
+							plan de experimentación para adoptar la mejor decisión se denomina optimización. Si el plan
+							de experimentación se lleva a cabo con el solo objeto de aprender a conducir el sistema,
+							entonces se denomina entrenamiento o capacitación.
+								</p>
+							</div>					
+						</div>
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #1-->
+
+		<!--Curso #2-->
+		<div class="modal fade" id="curso2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">¿Que es la Simulacion?</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>
+							El concepto de simulación de eventos discretos como el conjunto de relaciones lógicas, matemáticas y probabilísticas que integran el comportamiento de un sistema bajo estudio cuando se presenta un evento determinado. El objetivo del modelo de simulación consiste, precisamente, en comprender, analizar y mejorar las condiciones de operación relevantes del sistema.<br>En la definición anterior encontramos elementos com o sistema, modelo y evento, de los que se desprenden otros conceptos im portantes dentro de una simulación.
+						</p>						
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #2-->
+
+		<!--Curso #3-->
+		<div class="modal fade" id="curso3">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Elementos de la simulacion.</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>Existen ciertas condiciones clave que pueden traer problemas si no se les pone atención almomento de usar la simulación para la toma de decisiones.<br>Los prinpales elementos de la simulacion son:
+						</p>
+						<!--Inicio del acordeon del tema3-->
+						<div id="infotema3">
+							<div class="card">
+								<div class="card-header" id="headingtema3sub1">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub1" aria-expanded="true" aria-controls="collapsetema3sub1">
+							         	Tamaño insuficiente de la corrida.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub1" class="collapse" aria-labelledby="headingtema3sub1" data-parent="#infotema3">
+							      	<div class="card-body">
+							        Como se m encionó antes, para poder llegar a conclusiones estadísticas válidas a partir de los modelos de simulación es necesario que las variables aleatorias de respuesta se encuentren en estado estable. El problema estriba en que, por lo general, cuando el modelo consta de m ás de una variable de decisión, es difícil que éstas alcancen un estado estable al mism o tiem po: es posible que una se encuentre estable y la otra no en un m om ento determinado, por lo que las conclusiones respecto de la segunda variable no serán confiables en cuanto a la estadística.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub2">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub2" aria-expanded="true" aria-controls="collapsetema3sub2">
+							         	Variable(s) de respuesta mal definida(s).
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub2" class="collapse" aria-labelledby="headingtema3sub2" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Aun cuando el modelo de simulación sea muy eficiente y represente en gran medida la realidad, si la variable de respuesta seleccionada	no es la apropiada, será im posible tom ar decisiones que tengan im pacto en la operación del sistema bajo estudio.	Por ejemplo, digamos que una variable de respuesta es el nivel de inventarios de cierto producto, sin embargo, la política de la empresa establece que no se debe parar	ninguno de los procesos de fabricación. En consecuencia, el problema no será el inventario final, sino el ritmo de producción necesario para que aquel cumpla con los requerim ientos de diseño que se desean.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub3">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub3" aria-expanded="true" aria-controls="collapsetema3sub3">
+							         Errores al establecer las relaciones entre las variables aleatorias.
+							        </button>
+							      </h5>
+							    </div>
+								<div id="collapsetema3sub3" class="collapse" aria-labelledby="headingtema3sub3" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	 Un error común de programación es olvidar las relaciones lógicas que existen entre las variables aleatorias del modelo, o minimizar su impacto. Si una de estas variables no está definida de manera correcta, es posible tener un m odelo que se apegue a la realidad actual; sin embargo, si el sistema no se lleva hasta su m áxim a capacidad para observar su comportamiento, podría resultar imposible visualizar el verdadero im pacto de las deficiencias.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub4">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub4" aria-expanded="true" aria-controls="collapsetema3sub4">
+							         	Variable(s) de respuesta mal definida(s).
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub4" class="collapse" aria-labelledby="headingtema3sub4" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Aun cuando el modelo de simulación sea muy eficiente y represente en gran medida la realidad, si la variable de respuesta seleccionada	no es la apropiada, será im posible tom ar decisiones que tengan im pacto en la operación del sistema bajo estudio.	Por ejemplo, digamos que una variable de respuesta es el nivel de inventarios de cierto producto, sin embargo, la política de la empresa establece que no se debe parar	ninguno de los procesos de fabricación. En consecuencia, el problema no será el inventario final, sino el ritmo de producción necesario para que aquel cumpla con los requerim ientos de diseño que se desean.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub5">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub5" aria-expanded="true" aria-controls="collapsetema3sub5">
+							         	Errores al establecer las relaciones entre las variables aleatorias.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub5" class="collapse" aria-labelledby="headingtema3sub5" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Un error común de programación es olvidar las relaciones lógicas que existen entre las variables aleatorias del modelo, o minimizar su impacto. Si una de estas variables no está definida de manera correcta, es posible tener un m odelo que se apegue a la realidad actual; sin embargo, si el sistema no se lleva hasta su máxim a capacidad para observar su comportamiento, podría resultar imposible visualizar el verdadero impacto de las ficiencias.
+							      	</div>
+							    </div>
+							</div>
+							
+							<div class="card">
+								<div class="card-header" id="headingtema3sub6">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub6" aria-expanded="true" aria-controls="collapsetema3sub6">
+							         	Errores al determinar el tipo de distribución asociado a las variables aleatorias del modelo. 
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub6" class="collapse" aria-labelledby="headingtema3sub6" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Este tipo de problema es muy similar al anterior, pero en este caso se utilizan distribuciones que no son las más adecuadas o que responden únicamente a un intento de simplificar los estudios estadísticos.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub7">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub7" aria-expanded="true" aria-controls="collapsetema3sub7">
+							         	Falta de un análisis estadístico de los resultados. 
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub7" class="collapse" aria-labelledby="headingtema3sub7" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Un problema común por el que la simulación suele ser objeto de crítica, radica en asumir que se trata de una herramienta de optimización. Esta apreciación es incorrecta, ya que involucra variables aleatorias y características propias de un modelo que incluye probabilidades. 
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub8">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub8" aria-expanded="true" aria-controls="collapsetema3sub8">
+							         	Uso incorrecto de la información obtenida.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub8" class="collapse" aria-labelledby="headingtema3sub8" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Un problema que se presenta en ocasiones es el uso incorrecto de la información recabada para la realización del estudio, ya sea a través de un cliente o de cualquier otra fuente.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema3sub9">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema3sub9" aria-expanded="true" aria-controls="collapsetema3sub9">
+							         	Falta o exceso de detalle en el modelo.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema3sub9" class="collapse" aria-labelledby="headingtema3sub9" data-parent="#infotema3">
+							      	<div class="card-body">
+							        	Otro punto im portante a considerar es el nivel de detalle del modelo. En m uchas ocasiones algún proceso se simplifica tanto que tiende a verse como una "caja negra"que nos impide ver qué ocurre en el interior, aunque sí haya entrada y salida de datos que interactúan con otras partes del modelo. 
+							      	</div>
+							    </div>
+							</div>
+
+
+						</div>			
+						<!--Fin del acordeon del tema 3-->
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #3-->
+		<!--Curso #4-->
+		<div class="modal fade" id="curso4">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Aplicaciones de la Simulacion.</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>
+							No existe una formulación matemática analíticamente resoluble. Muchos sistemas
+reales no pueden ser modelados matemáticamente con las herramientas actualmente disponibles, por ejemplo la conducta de un cliente de un banco. <br> Existe una formulación matemática, pero es difícil obtener una solución analítica. Los modelos matemáticos utilizados para modelar un reactor nuclear o una planta química son imposibles de resolver en forma analítica sin realizar serias simplificaciones.
+						</p>			
+						<a href="#curso4sub1" class="btn btn-info" data-toggle="collapse"> Leer Mas.. / Ocultar</a>			
+					</div>					
+					<div class="collapse" id="curso4sub1">
+						<br>
+						<div class="card card-body">
+							<p>
+								Los experimentos son imposibles debido a impedimentos económicos, de seguridad, de calidad o éticos. En este caso el sistema real esta disponible para realizar experimentos, pero la dificultad de los mismos hace que se descarte esta opción. Un ejemplo de esto es la imposibilidad de provocar fallas en un avión real para evaluar la conducta del piloto, tampoco se puede variar el valor de un impuesto a para evaluar la reacción del mercado.
+							</p>
+						</div>					
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #4-->
+
+		<!--Curso #5-->
+		<div class="modal fade" id="curso5">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Tipos de Simulacion.</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>
+							La simulacion se emplea por difrentes tipos:
+						</p>						
+						<!--Inicio del acordeon tema 5-->
+						<div id="infotema5">
+							<div class="card">
+								<div class="card-header" id="headingtema5sub1">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema5sub1" aria-expanded="true" aria-controls="collapsetema5sub1">
+							         	Identidad.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema5sub1" class="collapse" aria-labelledby="headingtema5sub1" data-parent="#infotema5">
+							      	<div class="card-body">
+							        Es cuando el modelo es una réplica exacta del sistema en estudio. Es la
+que utilizan las empresas automotrices cuando realizan ensayos de choques de
+automóviles utilizando unidades reales.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema5sub2">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema5sub2" aria-expanded="true" aria-controls="collapsetema5sub2">
+							         	Cuasi-identidad
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema5sub2" class="collapse" aria-labelledby="headingtema5sub2" data-parent="#infotema5">
+							      	<div class="card-body">
+							        	Se utiliza una versión ligeramente simplificada del sistema real. Por
+ejemplo, los entrenamientos militares que incluyen movilización de equipos y tropas
+pero no se lleva a cabo una batalla real.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema5sub3">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema5sub3" aria-expanded="true" aria-controls="collapsetema5sub3">
+							         Laboratorio.
+							        </button>
+							      </h5>
+							    </div>
+								<div id="collapsetema5sub3" class="collapse" aria-labelledby="headingtema5sub3" data-parent="#infotema5">
+							      	<div class="card-body">
+							        	 Se utilizan modelos bajo las condiciones controladas de un laboratorio.
+Se pueden distinguir dos tipos de simulaciones Juego operacional y hombre-maquina.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema5sub4">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema5sub4" aria-expanded="true" aria-controls="collapsetema5sub4">
+							         	Simulacion por computadoras.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema5sub4" class="collapse" aria-labelledby="headingtema5sub4" data-parent="#infotema5">
+							      	<div class="card-body">
+							        	El modelo es completamente simbólico y está
+implementado en un lenguaje computacional. Las personas quedan excluidas del
+modelo. Un ejemplo es el simulador de un sistema de redes de comunicación donde la
+conducta de los usuarios está modelada en forma estadística. Este tipo de simulación a
+su vez puede ser digital y analogica.
+
+							      	</div>
+							    </div>
+							</div>
+						</div>
+						<!--Fin del acordeon tema 5-->
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #5-->
+
+		<!--Curso #6-->
+		<div class="modal fade" id="curso6">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Inicio del header del modal-->
+					<div class="modal-header">
+						<h4 class="modal-title">Simulacion por Comupadora.</h4>
+					</div>
+					<!-- Fin del header del modal-->
+					<!-- Inicio del contenido modal-->
+					<div class="modal-body">
+						<p>
+							Es importante conocer los puntos claves para la simulacion de computadora.
+						</p>						
+
+						<!--Inicio acordeon tema 6-->
+						<div id="infotema6">
+							<div class="card">
+								<div class="card-header" id="headingtema6sub1">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema6sub1" aria-expanded="true" aria-controls="collapsetema6sub1">
+							         	Un modelo.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema6sub1" class="collapse" aria-labelledby="headingtema6sub1" data-parent="#infotema6">
+							      	<div class="card-body">
+							        Es un modelo simbólico. Puede ser un conjunto de ecuaciones, reglas lógicas o un modelo estadístico.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema6sub2">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema6sub2" aria-expanded="true" aria-controls="collapsetema6sub2">
+							         	El evaluador.
+							        </button>
+							      </h5>
+							    </div>
+
+							    <div id="collapsetema6sub2" class="collapse" aria-labelledby="headingtema6sub2" data-parent="#infotema6">
+							      	<div class="card-body">
+							        	Es el conjunto de procedimientos que procesarán el modelo para
+obtener los resultados de la simulación. Puede contener rutinas para la resolución de
+sistemas de ecuaciones, generadores de números aleatorios, rutinas estadísticas, etc.
+							      	</div>
+							    </div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingtema6sub3">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetema6sub3" aria-expanded="true" aria-controls="collapsetema6sub3">
+							         La interfaz.
+							        </button>
+							      </h5>
+							    </div>
+								<div id="collapsetema6sub3" class="collapse" aria-labelledby="headingtema6sub3" data-parent="#infotema6">
+							      	<div class="card-body">
+							        	 Es la parte dedicada a interactuar con el usuario, recibe las acciones del
+mismo y presenta los resultados de la simulación en una forma adecuada. Esta unidad
+puede ser tan compleja como la cabina utilizada en los simuladores de vuelos
+profesionales.
+							      	</div>
+							    </div>
+							</div>
+						</div>	
+						<!--Fin del acordeon tema 6-->
+					</div>
+					<!-- Fin del contenido modal-->
+					<!--Inicio de Controles-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Fin del curso #6-->
+
+
+		<!--Fin de los modals-->
+	</div>
+	<script src="../js/jquery-3.3.1.slim.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>	
+</body>
+</html>
