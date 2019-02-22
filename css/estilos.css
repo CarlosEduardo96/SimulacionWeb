@@ -1,0 +1,39 @@
+header{
+	background:#575757;
+	color: #fff;
+	height: 80px;
+}
+
+.main{
+	background:#065D53;
+	color: #fff;	
+}
+
+.color1{
+	background:#3D484A;
+	color: #fff;
+}
+
+.color2{
+	background:#078691;
+	color: #fff;
+}
+
+.color3{
+	background:#109D07;
+	color: #fff;
+}
+.fondoindex{
+	background-image: url("../img/index.jpg");
+}
+aside{
+	background:#C10000;
+	color: #fff;
+}
+
+footer{
+	background:#575757;
+	color: #fff;	
+	height: 110px;
+}
+
