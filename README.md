@@ -1,5 +1,4 @@
-#SimulacionWeb
-Cursos de Simulacion.
+##SimulacionWeb Cursos de Simulacion.##
 Instituto Tecnologico Superior de Cosamaloapan.
 Ingenieria en sistemas Computacionales.
 803A.
