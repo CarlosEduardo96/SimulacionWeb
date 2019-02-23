@@ -1,5 +1,6 @@
-##SimulacionWeb Cursos de Simulacion.##
-Instituto Tecnologico Superior de Cosamaloapan.
+#SimulacionWeb Cursos de Simulacion.<h1> tag
+  
+*Instituto Tecnologico Superior de Cosamaloapan.
 Ingenieria en sistemas Computacionales.
 803A.
-Carlos Eduardo Rodriguez Cruz.
+Carlos Eduardo Rodriguez Cruz.*
